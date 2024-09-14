@@ -1,0 +1,40 @@
+body {
+    background: url(https://miro.medium.com/v2/resize:fit:1400/format:webp/1*OdSPBG7pYvmqYD3fOIdlXA.jpeg) bottom center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: #a88237;
+}
+
+#btnMainWrapper {
+    padding: 0 10vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnWrapper {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    width: 9%;
+    text-align: center;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.clicked { 
+    transform: scale(1.1);
+    border-color: rgba(255, 198, 0, 1);
+    box-shadow: 0 0 0.6rem #ffc600;   
+}
